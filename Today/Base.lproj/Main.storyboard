@@ -27,6 +27,7 @@
         <!--Reminder List View Controller-->
         <scene sceneID="cbH-V5-Jwl">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KJY-ha-0ml" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <collectionViewController id="YMy-iX-ndt" customClass="ReminderListViewController" customModule="Today" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="nhp-01-Gdf">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
@@ -54,7 +55,6 @@
                         </connections>
                     </collectionView>
                 </collectionViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KJY-ha-0ml" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-227" y="-673"/>
         </scene>
